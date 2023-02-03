@@ -5,7 +5,7 @@
 Misskey用の日本語Botです。
 
 ## インストール
-> Node.js と npm と MeCab (オプション) がインストールされている必要があります。
+> Node.js と pnpm と MeCab (オプション) がインストールされている必要があります。
 
 まず適当なディレクトリに `git clone` します。
 次にそのディレクトリに `config.json` を作成します。中身は次のようにします:
@@ -24,7 +24,7 @@ Misskey用の日本語Botです。
 	"memoryDir": "memory.jsonの保存先（オプション、デフォルトは'.'（レポジトリのルートです））"
 }
 ```
-`npm install` して `npm run build` して `npm start` すれば起動できます
+`pnpm install` して `pnpm run build` して `pnpm start` すれば起動できます
 
 ## Dockerで動かす
 まず適当なディレクトリに `git clone` します。
@@ -59,3 +59,4 @@ MIT
 
 ## Awards
 <img src="./WorksOnMyMachine.png" alt="Works on my machine" height="120">
+
